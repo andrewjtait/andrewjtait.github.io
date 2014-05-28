@@ -8,7 +8,7 @@ baseurl: ""
 markdown: kramdown
 permalink: pretty
 
-exclude: [node_modules,Gruntfile.js,package.json]
+exclude: [node_modules,Gruntfile.js,package.json,README.md]
 
 kramdown:
   input: GFM
