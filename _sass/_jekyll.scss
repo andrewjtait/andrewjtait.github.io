@@ -1,7 +1,4 @@
-/* Post styles */
-/* ----------------------------------------------------------*/
-
-.post-content blockquote {
+blockquote {
   border-left: 4px solid #e8e8e8;
   padding-left: 20px;
   font-size: 18px;
@@ -11,11 +8,11 @@
   margin: 30px 0;
 }
 
-.post-content ul,
-.post-content ol { padding-left: 20px; }
+ul,
+ol { padding-left: 20px; }
 
-.post pre,
-.post code {
+pre,
+code {
   border: 1px solid #d5d5e9;
   background-color: #eef;
   padding: 8px 12px;
@@ -23,17 +20,18 @@
   -moz-border-radius: 3px;
   border-radius: 3px;
   font-size: 15px;
+  line-height: 22px;
+  margin: 30px 0;
 }
 
-.post code { padding: 1px 5px; }
+code { padding: 1px 5px; }
 
-.post ul,
-.post ol { margin-left: 1.35em; }
+ul,
+ol { margin-left: 1.35em; }
 
-.post pre code { border: none; }
+pre code { border: none; }
 
-/* terminal */
-.post pre.terminal {
+pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
@@ -42,10 +40,7 @@
   border-radius: 3px;
 }
 
-.post pre.terminal code { background-color: #333; }
-
-/* Syntax highlighting styles */
-/* ----------------------------------------------------------*/
+pre.terminal code { background-color: #333; }
 
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
