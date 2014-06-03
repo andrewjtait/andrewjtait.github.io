@@ -1,0 +1,63 @@
+header {
+  background-color: #222;
+  height: 380px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  box-shadow: inset 0 -40px 300px #000;
+}
+
+.app-head {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  color: #FFF;
+  padding-top: 110px;
+}
+
+.app-header {
+  font-size: 65px;
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+  letter-spacing: -3px;
+  font-style: italic;
+  border: none;
+
+  &:hover {
+    color: #FFF;
+  }
+}
+
+.app-description {
+  font-size: 17px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.app-header-icon {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 18px 2px 0;
+  border: none;
+  position: relative;
+  top: 0;
+  -webkit-transition: top 0.2s;
+
+  .icon-path {
+    fill: #FFFFFF;
+    -webkit-transition: fill 0.2s;
+  }
+
+  &:hover {
+    top: -5px;
+
+    .github-icon-path {
+      fill: #6CC644;
+    }
+
+    .twitter-icon-path {
+      fill: #55ACEE;
+    }
+  }
+}
