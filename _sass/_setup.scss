@@ -1,5 +1,16 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   margin: 0;
 }
 
@@ -9,7 +20,7 @@ $link-hover-color: #0175CF;
 a {
   color: $link-color;
   text-decoration: none;
-  border-bottom: 1px solid $link-color;
+  border-bottom: 1px dotted $link-color;
 
   &:hover {
     color: $link-hover-color;

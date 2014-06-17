@@ -298,14 +298,23 @@ pre.terminal code {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px; }
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   margin: 0; }
 
 a {
   color: black;
   text-decoration: none;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px dotted black; }
   a:hover {
     color: #0175cf;
     border-color: #0175cf; }
@@ -318,69 +327,89 @@ h1 {
 
 header {
   background-color: #222;
-  height: 380px;
+  height: 280px;
   width: 100%;
   position: absolute;
-  top: 0;
-  box-shadow: inset 0 -40px 300px #000; }
+  top: 0; }
 
 .app-head {
   text-align: center;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Raleway', sans-serif;
   color: #FFF;
-  padding-top: 110px; }
+  padding-top: 50px; }
 
 .app-header {
-  font-size: 65px;
+  font-size: 3rem;
   text-decoration: none;
   color: #FFF;
-  display: block;
-  letter-spacing: -3px;
-  font-style: italic;
-  border: none; }
+  display: inline;
+  letter-spacing: -1px;
+  border: none;
+  -webkit-font-smoothing: antialiased; }
   .app-header:hover {
     color: #FFF; }
 
 .app-description {
-  font-size: 17px;
+  font-size: 0.75rem;
   display: block;
-  margin-bottom: 20px; }
+  margin-bottom: 12px;
+  margin-top: 2px;
+  letter-spacing: 0.5px;
+  font-family: 'Open Sans', Arial, sans-serif; }
 
 .app-header-icon {
   display: inline-block;
   height: 40px;
   width: 40px;
-  margin: 18px 2px 0;
+  margin: 18px 4px 0;
   border: none;
   position: relative;
   top: 0;
-  -webkit-transition: top 0.2s; }
+  -ms-transition: top 0.2s;
+  -moz-transition: top 0.2s;
+  -webkit-transition: top 0.2s;
+  transition: top 0.2s; }
   .app-header-icon .icon-path {
     fill: #FFFFFF;
-    -webkit-transition: fill 0.2s; }
+    -ms-transition: fill 0.2s;
+    -moz-transition: fill 0.2s;
+    -webkit-transition: fill 0.2s;
+    transition: fill 0.2s; }
   .app-header-icon:hover {
     top: -5px; }
     .app-header-icon:hover .github-icon-path {
-      fill: #6CC644; }
+      fill: #55ACEE; }
     .app-header-icon:hover .twitter-icon-path {
       fill: #55ACEE; }
 
 .content {
-  width: 750px;
+  width: 850px;
   margin: 0 auto;
   background-color: #FFF;
-  margin-top: 330px;
+  margin-top: 230px;
   padding: 20px 50px 50px;
-  font-size: 16px;
-  position: relative;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); }
+  font-size: 1rem;
+  position: relative; }
   .content p {
     line-height: 22px; }
+  .content .single-post-date {
+    margin-top: 0;
+    margin-bottom: 30px; }
+  .content .single-post-title {
+    margin-bottom: 0;
+    font-size: 2rem; }
 
+@media (max-width: 850px) {
+  .content {
+    width: 100%; } }
+@media (max-width: 650px) {
+  .content {
+    padding-left: 20px;
+    padding-right: 20px; } }
 footer {
   text-align: center;
   padding: 40px 0;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold; }
 
 .posts {
