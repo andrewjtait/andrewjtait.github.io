@@ -342,7 +342,7 @@ header {
   padding-top: 52px; }
 
 .app-header {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-decoration: none;
   color: #FFF;
   display: inline;
@@ -355,7 +355,7 @@ header {
 .app-description {
   font-size: 0.75rem;
   display: block;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   margin-top: 2px;
   letter-spacing: 0.5px;
   font-family: 'Open Sans', Arial, sans-serif; }
@@ -386,11 +386,8 @@ header {
       fill: #55ACEE; }
 
 @media (max-width: 650px) {
-  .app-header {
-    font-size: 2.7rem; }
-
   .app-description {
-    margin-bottom: 18px; } }
+    margin-bottom: 20px; } }
 .content {
   width: 850px;
   margin: 0 auto;
