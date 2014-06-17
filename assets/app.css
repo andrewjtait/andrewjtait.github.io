@@ -386,8 +386,11 @@ header {
       fill: #55ACEE; }
 
 @media (max-width: 650px) {
+  .app-head {
+    padding-top: 20px; }
+
   .app-description {
-    margin-bottom: 20px; } }
+    margin-bottom: 0; } }
 .content {
   width: 850px;
   margin: 0 auto;
@@ -412,7 +415,8 @@ header {
 @media (max-width: 650px) {
   .content {
     padding-left: 10px;
-    padding-right: 10px; } }
+    padding-right: 10px;
+    margin-top: 155px; } }
 footer {
   text-align: center;
   padding: 40px 0;

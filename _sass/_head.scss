@@ -71,7 +71,11 @@ header {
 }
 
 @media (max-width: 650px) {
+  .app-head {
+    padding-top: 20px;
+  }
+
   .app-description {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 }
