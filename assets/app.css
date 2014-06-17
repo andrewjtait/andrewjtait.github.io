@@ -385,6 +385,9 @@ header {
     .app-header-icon:hover .twitter-icon-path {
       fill: #55ACEE; }
 
+@media (max-width: 650px) {
+  .app-header {
+    font-size: 2.5rem; } }
 .content {
   width: 850px;
   margin: 0 auto;
@@ -408,8 +411,8 @@ header {
     width: 100%; } }
 @media (max-width: 650px) {
   .content {
-    padding-left: 20px;
-    padding-right: 20px; } }
+    padding-left: 10px;
+    padding-right: 10px; } }
 footer {
   text-align: center;
   padding: 40px 0;
