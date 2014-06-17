@@ -35,3 +35,9 @@ p {
 h1 {
   margin: 21px 0 16px;
 }
+
+@media (max-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+}
