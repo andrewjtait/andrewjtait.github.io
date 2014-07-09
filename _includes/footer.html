@@ -6,6 +6,7 @@
   // parallax scrolling for header
   var appHead = document.getElementById('app-head');
   window.addEventListener("scroll", function(evt) {
-    appHead.style.top = (window.scrollY * 0.4) + "px";
+    var position = window.innerWidth >= 650 ? window.scrollY * 0.4 : 0;
+    appHead.style.top = position + "px";
   });
 </script>
