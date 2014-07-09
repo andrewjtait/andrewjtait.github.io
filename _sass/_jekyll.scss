@@ -19,12 +19,13 @@ code {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  font-size: 15px;
+  font-size: 0.95rem;
   line-height: 22px;
-  margin: 30px 0;
+  margin: 20px 0;
+  word-break: break-word;
 }
 
-code { padding: 1px 5px; }
+code { padding: 0; }
 
 ul,
 ol { margin-left: 1.35em; }
