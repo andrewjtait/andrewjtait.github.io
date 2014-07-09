@@ -2,7 +2,6 @@
 layout: post
 title:  "A few notes on jQuery 2013"
 date:   2013-05-20 20:54:46
-categories: jquery
 ---
 
 I recently had the opportunity to attend jQuery UK 2013 in Oxford – it was a really worthwhile conference, well organised with plenty of interesting things going on throughout the day including competitions, video games, plenty of friendly sponsors showing off their tech (with free t-shirts and stickers) as well as the conference’s own mini beer festival with ice-cream!
