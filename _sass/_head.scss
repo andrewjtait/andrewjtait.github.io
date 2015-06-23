@@ -55,16 +55,14 @@ header {
     -moz-transition: fill 0.2s;
     -webkit-transition: fill 0.2s;
     transition: fill 0.2s;
+    height: 40px;
+    width: 40px;
   }
 
   &:hover {
     top: -5px;
 
-    .github-icon-path {
-      fill: #55ACEE;
-    }
-
-    .twitter-icon-path {
+    .icon-path {
       fill: #55ACEE;
     }
   }
