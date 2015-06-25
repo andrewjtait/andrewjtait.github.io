@@ -402,7 +402,10 @@ header {
   .app-header-icon {
     width: 30px;
     height: 30px;
-    margin-top: 22px; } }
+    margin-top: 22px; }
+    .app-header-icon .icon-path {
+      width: 32px;
+      height: 32px; } }
 .content {
   width: 850px;
   margin: 0 auto;
