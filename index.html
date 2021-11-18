@@ -1,12 +1,32 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Andrew Tait</title>
+    <meta name="description" content="Andrew Tait">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<div class="posts">
-  {% for post in site.posts %}
-  <div class="post">
-    <span class="post-date">{{ post.date | date: "%-d %b %Y" }}</span>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  </div>
-  {% endfor %}
-</div>
+    <style>
+      body {
+        background-color: #111;
+        color: #fff;
+        font-family: sans-serif;
+        margin: 20px;
+      }
+      a {
+        color: #a573dd;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Andrew Tait</h1>
+    <p>Software engineer, making things at <a href="https://k.io">Krystal</a>.</p>
+    <h2>Links:</h2>
+    <ul>
+      <li><a href="https://github.com/andrewjtait">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/andrewjamestait">LinkedIn</a></li>
+      <li><a href="https://twitter.com/andtait">Twitter</a></li>
+      <li><a href="https://instagram.com/andrewjtait">Instagram</a></li>
+    </ul>
+  </body>
+</html>
